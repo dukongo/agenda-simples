@@ -16,5 +16,26 @@ namespace agenda_simples
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnaddcontato_Click(object sender, EventArgs e)
+        {
+            contato objetoContato=new contato();
+            lstcontato.Items.Add(objetoContato.ToString());
+        }
     }
 }
